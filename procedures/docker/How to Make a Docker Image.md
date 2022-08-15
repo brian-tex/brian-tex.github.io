@@ -8,4 +8,5 @@ Container images become containers at runtime and in the case of Docker containe
 
 ## Using a Docker Container
 - TBD
-[^1]: [What is a Container](https://www.docker.com/resources/what-container/).
+---
+- For more information, see the [docker glossary](https://github.com/brian-tex/public-documentation/blob/main/reference/docker/glossary.md).
