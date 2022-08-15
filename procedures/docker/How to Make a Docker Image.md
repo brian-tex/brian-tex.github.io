@@ -24,9 +24,9 @@
 1. Run the following: ```docker build <filePathToYourNewDirectory> -t <yourDockerHubUsername>/<yourDesiredImageName>:<tag>```
     - e.g., ```docker build /home/johnnyb/nextcloudDirectory -t johnb1/nextcloud:01```
 1. List out all Docker images on your computer: ```docker images```
-1. Locate your newly craeted image and note the container image id associated with it.
+1. Locate your newly created image and note the container image id associated with it.
 
 ## Image Creation Using a Docker Container
-- TBD
+- tbd
 ---
 - For more information, see the [docker glossary](https://github.com/brian-tex/public-documentation/blob/main/reference/docker/glossary.md).
