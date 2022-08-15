@@ -1,17 +1,17 @@
 # Introduction
 ### Docker Hub Container Images
-These are created by service providors and the community and exist for many services. These images lower the development needed for service deployment and are often supported by the image owner for version upgrades and security patching. The downside to these public images are that you have less control over how the image was made, what packages are included and how the container is configured/managed.
+- These are created by service providors and the community and exist for many services. These images lower the development needed for service deployment and are often supported by the image owner for version upgrades and security patching. The downside to these public images are that you have less control over how the image was made, what packages are included and how the container is configured/managed.
 
 ### Custom Docker Container Images
-These address the security and control constraints of public images as you are in full control of the image from start to finish. You can start with a scratch base image or a base image you trust, build out the container the way you want it made and then build the container into an image. A few downsides to custom images are that it takes development time to create, you need to inventory and monitor the packages in your container, manually upgrade your services and personally patch security vulnerabilities.
+- These address the security and control constraints of public images as you are in full control of the image from start to finish. You can start with a scratch base image or a base image you trust, build out the container the way you want it made and then build the container into an image. A few downsides to custom images are that it takes development time to create, you need to inventory and monitor the packages in your container, manually upgrade your services and personally patch security vulnerabilities.
 
-A middle ground between public and custom images is:
+### A Middle Ground
 1. Build an idempotent script that applies common best practices.
-2. Download the public container image.
-3. Run a vulnerability check against the image to identify vulerable packages.
-4. Create a container using a public image.
-5. Connect to the container and patch any vulnerabilities and apply your best practices script.
-6. Build the container as a custom image and save it to Docker Hub.
+1. Download the public container image.
+1. Run a vulnerability check against the image to identify vulerable packages.
+1. Create a container using a public image.
+1. Connect to the container and patch any vulnerabilities and apply your best practices script.
+1. Build the container as a custom image and save it to Docker Hub.
 
 ## Image Creation Using a Dockerfile
 - TBD
