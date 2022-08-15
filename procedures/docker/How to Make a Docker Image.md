@@ -14,7 +14,14 @@
 1. Build the container as a custom image and save it to Docker Hub.
 
 ## Image Creation Using a Dockerfile
-- TBD
+1. Create an empty directory for your custom image.
+1. ``cd`` into the new directory. 
+1. Locate the Dockerfile you wish to use ([create one if needed](https://github.com/brian-tex/public-documentation/blob/main/procedures/docker/How%20to%20Create%20a%20Dockerfile.md)) and move it into the new directory.
+1. Move all directories, scripts, files, etc. needed by the Dockerfile (if applicable) into the new directory.
+1. Get your Docker Hub username.
+1. Identify what you want to name your image.
+1. Identify what tag you wish to use for this specific build. It usually starts as ```01``` ad iterates with each build.
+1. Run the following: ```docker build -t <yourDockerHubUsername>/<yourDesiredImageName>:<tag>``` (example, ```docker build -t johnb1/nextcloud:01```
 
 ## Image Creation Using a Docker Container
 - TBD
