@@ -21,7 +21,8 @@
 1. Get your Docker Hub username.
 1. Identify what you want to name your image.
 1. Identify what tag you wish to use for this specific build. It usually starts as ```01``` ad iterates with each build.
-1. Run the following: ```docker build -t <yourDockerHubUsername>/<yourDesiredImageName>:<tag>``` (example, ```docker build -t johnb1/nextcloud:01```
+1. Run the following: ```docker build -t <yourDockerHubUsername>/<yourDesiredImageName>:<tag>```
+  - e.g., ```docker build -t johnb1/nextcloud:01```
 
 ## Image Creation Using a Docker Container
 - TBD
