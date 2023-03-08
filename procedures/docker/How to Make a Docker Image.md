@@ -20,7 +20,7 @@
 1. Move all directories, scripts, files, etc. needed by the Dockerfile (if applicable) into the new directory.
 1. Get your Docker Hub username.
 1. Identify what you want to name your image.
-1. Identify what tag you wish to use for this specific build. It usually starts as ```01``` ad iterates with each build.
+1. Identify what tag you wish to use for this specific build. It usually starts as ```01``` and iterates with each build.
 1. Run the following: ```docker build <filePathToYourNewDirectory> -t <yourDockerHubUsername>/<yourDesiredImageName>:<tag>```
     - e.g., ```docker build /home/johnnyb/nextcloudDirectory -t johnb1/nextcloud:01```
 1. List out all Docker images on your computer: ```docker images```
