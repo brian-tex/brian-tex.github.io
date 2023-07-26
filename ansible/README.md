@@ -1,0 +1,2 @@
+# Ansible
+Ansible is an open-source automation tool for IT tasks. It's agentless and user-friendly. You can automate processes, deploy apps, and configure systems easily. Ansible uses YAML scripts, called playbooks, for straightforward orchestration. It's perfect for sysadmins, developers, and IT pros who want automation without complex programming skills. Boost productivity with Ansible's ease and extensive module library.
